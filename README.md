@@ -5,7 +5,7 @@ Simple package to download and install dotfiles.
 ## Install
 
 ```
-curl -o dotfiles.sh https://raw.githubusercontent.com/jamesmcfadden/dotfiles/master/bin/dotfiles
+curl -o dotfiles.sh https://raw.githubusercontent.com/caubry/dotfiles/master/bin/dotfiles
 chmod +x dotfiles.sh
 ./dotfiles.sh install
 ```
