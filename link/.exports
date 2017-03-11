@@ -1,0 +1,2 @@
+export PATH="/Users/caubry/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/subversion-1.6/bin/:/Users/caubry/lib:/Users/caubry/lib/flex_sdk_4.6/bin:/Users/caubry/bin"
+export EDITOR="vim"

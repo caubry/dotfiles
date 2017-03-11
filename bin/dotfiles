@@ -3,7 +3,7 @@
 export DOTFILES=~/.dotfiles
 shopt -s dotglob
 
-REPO_URL=git@github.com:/jamesmcfadden/dotfiles
+REPO_URL=git@github.com:/caubry/dotfiles
 FORCE=false
 
 function install {

@@ -1,0 +1,3 @@
+alias ltop='top -o cpu'
+alias 'startmulti'='grunt dev -e && grunt clone'
+alias jake='noglob jake'
