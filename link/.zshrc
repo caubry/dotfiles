@@ -21,4 +21,4 @@ source ~/.aliases
 
 source $ZSH/oh-my-zsh.sh
 
-export PS1="%{$fg[magenta]%}%n%{$reset_color%} %{$fg[blue]%}%~%{$reset_color%}$"
+export PS1="%{$fg[magenta]%}%n%{$reset_color%} %{$fg[blue]%}%~%{$reset_color%} "
