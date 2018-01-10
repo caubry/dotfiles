@@ -1,3 +1,4 @@
 alias ltop='top -o cpu'
 alias 'startmulti'='grunt dev -e && grunt clone'
 alias jake='noglob jake'
+alias playerprefs='open /Users/$(whoami)/Library/Preferences/unity.Yakuto.Darts\ of\ Fury.plist'

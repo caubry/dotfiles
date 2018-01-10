@@ -6,7 +6,11 @@ export SAVEHIST=10000
 export HISTSIZE=10000
 
 # User configuration
-export PATH=/Users/caubry/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/subversion-1.6/bin/:/Users/caubry/lib:/Users/caubry/lib/flex_sdk_4.6/bin:/Users/caubry/bin:$DOTFILES/bin/:$HOME/bin:/usr/local/bin:/usr/local/texbin:$PATH
+export PATH=/Users/caubry/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/subversion-1.6/bin/:/Users/caubry/lib:/Users/caubry/lib/flex_sdk_4.6/bin:/Users/caubry/bin:$DOTFILES/bin/:$HOME/bin:/usr/local/bin:/usr/local/texbin/
 
 # User configuration (work)
 export PATH=$PATH:/tools/bin
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+export UNITY_HOME=/Applications/Unity
+export CMAKE_PREFIX_PATH=/Library/Frameworks/SDL2.framework
