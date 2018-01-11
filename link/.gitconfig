@@ -1,14 +1,14 @@
 [user]
-	name = Caroline Aubry
-	email = caroline@carolineaubry.com
+    name = Caroline Aubry
+    email = caroline@carolineaubry.com
 [core]
     editor = vim
     whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	excludesfile = /Users/caubry/.gitignore
+    excludesfile = /Users/caubry/.gitignore
 [diff]
-	tool = bc3
+    tool = bc3
 [merge]
-	tool = bc3
+    tool = bc3
 [gitflow "prefix"]
     feature = feature/
     release = release/
@@ -16,17 +16,17 @@
     support = support/
     versiontag = 
 [difftool "sourcetree"]
-	cmd = /usr/local/bin/bcomp \"$LOCAL\" \"$REMOTE\"
-	path = -ro
+    cmd = /usr/local/bin/bcomp \"$LOCAL\" \"$REMOTE\"
+    path = -ro
 [mergetool "sourcetree"]
-	cmd = /usr/local/bin/bcomp \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
-	trustExitCode = true
+    cmd = /usr/local/bin/bcomp \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+    trustExitCode = true
 [commit]
-	template = /Users/caubry/.stCommitMsg
+    template = /Users/caubry/.stCommitMsg
 [alias]
-	praise = blame
+    praise = blame
 [filter "lfs"]
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
